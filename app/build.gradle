@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 7
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId "com.azutka.wordfinder"
+        minSdkVersion 7
+        targetSdkVersion 7
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:18.0.0'
+    implementation files('libs/StartAppCommon-1.0.0.jar')
+    implementation files('libs/StartAppInApp-2.0.jar')
+    implementation files('libs/StartAppSearchBox-1.0.0.jar')
+}

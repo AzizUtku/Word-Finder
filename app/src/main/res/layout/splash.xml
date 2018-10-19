@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android1:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/dark"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android1:gravity="top"
+    tools:context=".MainActivity" >
+    
+      <ListView
+          android:id="@+id/listView1"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_alignRight="@+id/editText1"
+          android:layout_below="@+id/button1"
+          android:cacheColorHint="@android:color/transparent" >
+
+    </ListView>
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:text="Letter Box : "
+        android:textColor="@color/renk1"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/textView1"
+        android1:layout_alignRight="@+id/textView3"
+        android:ems="10"
+        android1:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Azutka Word Finder"
+        android:textColor="@color/renk1"
+        android:textColorHint="@android:color/white"
+        android:textSize="20sp"
+        android1:gravity="center" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:gravity="center_horizontal"
+        android:text="( 0 Letter )"
+        android:textAppearance="?android:attr/textAppearanceSmallInverse"
+        android:textColor="@color/renk4"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="13dp"
+        android:layout_toLeftOf="@+id/editText1"
+        android:background="@drawable/btn_blue"
+        android:ellipsize="marquee"
+        android:text="Find" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/textView4"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="5sp" />
+
+    <TextView
+        android1:id="@+id/textView2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBaseline="@+id/button1"
+        android1:layout_alignBottom="@+id/button1"
+        android1:layout_alignLeft="@+id/editText1"
+        android1:layout_alignRight="@+id/listView1"
+        android1:gravity="center"
+        android1:text="0 Word Found"
+        android1:textAppearance="?android:attr/textAppearanceLarge"
+        android1:textColor="@color/renk2"
+        android1:textColorHint="#D82727"
+        android1:textSize="20sp" />
+
+    <TextView
+        android1:id="@+id/textView3"
+        android1:layout_width="fill_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_below="@+id/TextView01"
+        android1:layout_centerHorizontal="true"
+        android1:gravity="center"
+        android1:text="Aziz Utku Kağıtcı"
+        android1:textAppearance="?android:attr/textAppearanceSmall"
+        android1:textColor="@color/renk3"
+        android1:textSize="12sp" />
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/azizutku/StudioProjects/Azutka Word Finder/app/build/intermediates/res/merged/debug/values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/azizutku/StudioProjects/Azutka Word Finder/app/src/main/res/values-sw720dp-land/dimens.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "205",
+                        "endColumns": "58",
+                        "endOffsets": "259"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/azizutku/StudioProjects/Azutka Word Finder/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/azizutku/StudioProjects/Azutka Word Finder/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "2,3,4,6,5,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "57,98,139,225,180,266",
+                        "endColumns": "39,39,39,39,43,46",
+                        "endOffsets": "92,133,174,260,219,308"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,95,135,175,215,259",
+                        "endColumns": "39,39,39,39,43,46",
+                        "endOffsets": "90,130,170,210,254,301"
+                    }
+                },
+                {
+                    "source": "/Users/azizutku/StudioProjects/Azutka Word Finder/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "6,15,25,20",
+                        "startColumns": "4,4,6,6",
+                        "startOffsets": "191,522,971,749",
+                        "endLines": "12,18,37,23",
+                        "endColumns": "12,12,8,12",
+                        "endOffsets": "481,735,1558,961"
+                    },
+                    "to": {
+                        "startLines": "13,20,24,37",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "575,866,1081,1661",
+                        "endLines": "19,23,36,40",
+                        "endColumns": "12,12,8,12",
+                        "endOffsets": "861,1076,1656,1870"
+                    }
+                },
+                {
+                    "source": "/Users/azizutku/StudioProjects/Azutka Word Finder/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "4,3,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "108,58,162",
+                        "endColumns": "52,48,52",
+                        "endOffsets": "156,102,210"
+                    },
+                    "to": {
+                        "startLines": "10,11,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "420,473,522",
+                        "endColumns": "52,48,52",
+                        "endOffsets": "468,517,570"
+                    }
+                },
+                {
+                    "source": "/Users/azizutku/StudioProjects/Azutka Word Finder/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "8,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "306,364",
+                        "endColumns": "57,55",
+                        "endOffsets": "359,415"
+                    }
+                }
+            ]
+        }
+    ]
+}
